@@ -410,6 +410,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          _this3.blurEvent = event;
 
 	          if (!_this3.justSelectedSuggestion) {
+	            return;
 	            _this3.onBlur();
 	            _this3.onSuggestionsClearRequested();
 	          }
