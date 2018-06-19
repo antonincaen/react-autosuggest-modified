@@ -344,11 +344,7 @@ var Autosuggest = function (_Component) {
           }
 
           _this3.blurEvent = event;
-
-          if (!_this3.justSelectedSuggestion) {
-            _this3.onBlur();
-            _this3.onSuggestionsClearRequested();
-          }
+onSuggestionsClearRequested
         },
         onChange: function onChange(event) {
           var value = event.target.value;
